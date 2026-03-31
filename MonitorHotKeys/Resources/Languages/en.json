@@ -1,0 +1,37 @@
+{
+  "AppTitle": "Monitor Management",
+  "TrayTooltip": "Monitor HotKeys\nRight-click to exit",
+  "ExitMenuItem": "Exit",
+  "UpdateConfigMenuItem": "Update Configuration",
+  "SaveMonitorsMenuItem": "Save Monitors",
+  "LanguageMenuItem": "Language",
+  "RussianMenuItem": "Русский",
+  "EnglishMenuItem": "English",
+
+  "ProfileLoad": "Loading profile {0}...",
+  "ProfileSave": "Saving profile {0}...",
+  "SetPrimary": "Setting monitor {0} as primary...",
+  "EnableMonitor": "Enabling monitor {0}...",
+  "DisableMonitor": "Disabling monitor {0}...",
+
+  "ProfileLoaded": "Profile {0} loaded!",
+  "ProfileSaved": "Profile {0} saved!",
+  "MonitorSetPrimary": "Monitor set as primary!",
+  "MonitorEnabled": "Monitor enabled!",
+  "MonitorDisabled": "Monitor disabled!",
+  "ActionCompleted": "Completed!",
+  "MmtNotFound": "Error: MultiMonitorTool.exe not found",
+  "CommandError": "Command execution error",
+  "GenericError": "Error: {0}",
+
+  "HelpTitle": "Hotkeys (hold for 1.5 sec):",
+  "HelpLoadProfile": "• Alt+F1-F3: Load profile",
+  "HelpSaveProfile": "• Alt+F10-F12: Save profile",
+  "HelpSetPrimary": "• Ctrl+Alt+F1-F3: Set monitor as primary",
+  "HelpEnableMonitor": "• Shift+Alt+F1-F3: Enable monitor",
+  "HelpDisableMonitor": "• Shift+Alt+F10-F12: Disable monitor",
+  "HelpMonitorList": "Monitor list:",
+  "HelpNoMonitors": "  No connected monitors detected.",
+  "PrimaryStatus": " [Primary]",
+  "DisabledStatus": " [Disabled]"
+}

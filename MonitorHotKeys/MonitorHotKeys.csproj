@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+	  <Compile Remove="MainWindow.xaml_Work16_10_25.cs" />
+	  <Compile Remove="MainWindow.xaml_Work_V2.cs" />
+	  <Compile Remove="MainWindow_V0.5_Old.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\app_icon.ico" />
+	  <None Remove="Resources\app_icon2.png" />
+	  <None Remove="Resources\exit.png" />
+	  <None Remove="Resources\exit2.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="2.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="MultiMonitorTool.exe">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Resources\app_icon.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Resources\app_icon2.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Resources\Languages\en.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Resources\Languages\ru.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\app_icon.ico">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\exit.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\exit2.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+</Project>

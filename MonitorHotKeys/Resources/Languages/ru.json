@@ -1,0 +1,37 @@
+{
+  "AppTitle": "Управление мониторами",
+  "TrayTooltip": "Monitor HotKeys\nНажмите ПКМ для завершения",
+  "ExitMenuItem": "Завершить работу",
+  "UpdateConfigMenuItem": "Актуальная конфигурация",
+  "SaveMonitorsMenuItem": "Сохранить мониторы",
+  "LanguageMenuItem": "Язык",
+  "RussianMenuItem": "Русский",
+  "EnglishMenuItem": "English",
+
+  "ProfileLoad": "Загрузка профиля {0}...",
+  "ProfileSave": "Сохранение профиля {0}...",
+  "SetPrimary": "Установка монитора {0} как главного...",
+  "EnableMonitor": "Включение монитора {0}...",
+  "DisableMonitor": "Отключение монитора {0}...",
+
+  "ProfileLoaded": "Профиль {0} загружен!",
+  "ProfileSaved": "Профиль {0} сохранен!",
+  "MonitorSetPrimary": "Монитор установлен как главный!",
+  "MonitorEnabled": "Монитор включен!",
+  "MonitorDisabled": "Монитор отключен!",
+  "ActionCompleted": "Выполнено!",
+  "MmtNotFound": "Ошибка: MultiMonitorTool.exe не найден",
+  "CommandError": "Ошибка выполнения команды",
+  "GenericError": "Ошибка: {0}",
+
+  "HelpTitle": "Горячие клавиши (удерживать 1.5 сек):",
+  "HelpLoadProfile": "• Alt+F1-F3: Загрузить профиль",
+  "HelpSaveProfile": "• Alt+F10-F12: Сохранить профиль",
+  "HelpSetPrimary": "• Ctrl+Alt+F1-F3: Сделать монитор главным",
+  "HelpEnableMonitor": "• Shift+Alt+F1-F3: Включить монитор",
+  "HelpDisableMonitor": "• Shift+Alt+F10-F12: Отключить монитор",
+  "HelpMonitorList": "Список мониторов:",
+  "HelpNoMonitors": "  Не обнаружено подключённых мониторов.",
+  "PrimaryStatus": " [Основной]",
+  "DisabledStatus": " [Отключен]"
+}
