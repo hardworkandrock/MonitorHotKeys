@@ -15,6 +15,10 @@
 
 <img width="764" height="576" alt="image" src="https://github.com/user-attachments/assets/813a07e8-ca52-4b14-b04b-3a4ee9e11557" />
 
+**Настроил все на макро-клаве и делаю в одну кнопку загрузку и сохранение профилей** 
+
+<img width="301" height="343" alt="image" src="https://github.com/user-attachments/assets/b7423c02-4796-4ccf-a8e6-628c1b0a063c" />
+
 ## ⚙️ Технические детали
 
 - Использует [MultiMonitorTool](https://www.nirsoft.net/utils/multi_monitor_tool.html) от NirSoft для управления дисплеями
